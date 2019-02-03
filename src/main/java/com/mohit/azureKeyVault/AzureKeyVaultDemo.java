@@ -18,10 +18,10 @@ public class AzureKeyVaultDemo {
 
   public static void main(String[] args) {
 
-    System.out.println("args : " + args[0] + "\n" + args[1] + "\n" + args[2] + "\n");
+    //System.out.println("args : " + args[0] + "\n" + args[1] + "\n" + args[2] + "\n");
     String clientId = "";//args[0]; 
     String clientKey = "";//args[1];  
-    String vaultURI = args[2];
+    String vaultURI = args[0];
 
     HashMap<String, String> keymap = new HashMap<String, String>();
     try {

@@ -44,8 +44,7 @@ mvn clean packages
 
 ## How to run?
 ```
-java -cp target/AzureKeyVaultDemo.jar com.mohit.azureKeyVault.AzureKeyVaultDemo  
-        <thisAppsClientIdToAccessKeyVault>  <thisAppsCLientCredentialToAccessKeyVault> <KeyVaultURLToAccess>
+java -cp target/AzureKeyVaultDemo.jar com.mohit.azureKeyVault.AzureKeyVaultDemo <KeyVaultURLToAccess>
 ```
 
 
