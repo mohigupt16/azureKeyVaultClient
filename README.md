@@ -1,4 +1,4 @@
-#AzureKeyVaultClient
+# AzureKeyVaultClient
 
 It is a Java Application to fetch credentials saved in Azure's KeyVault.
 
@@ -43,8 +43,10 @@ mvn clean packages
 ```
 
 ## How to run?
-java -cp target/AzureKeyVaultDemo.jar com.mohit.azureKeyVault.AzureKeyVaultDemo  "12454r12-avc9-4a9z-56ge-1b2440xb3d17"  "1kMcOilUr0sotkGCP7F5FCucQuvHRmNATOyqLth6bS?8"  "https://mohitkv.vault.azure.net/"
-
+```
+java -cp target/AzureKeyVaultDemo.jar com.mohit.azureKeyVault.AzureKeyVaultDemo  
+        <thisAppsClientIdToAccessKeyVault>  <thisAppsCLientCredentialToAccessKeyVault> <KeyVaultURLToAccess>
+```
 
 
 
